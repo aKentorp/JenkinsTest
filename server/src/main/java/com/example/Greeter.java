@@ -19,7 +19,7 @@ public class Greeter {
   * @return a String
   */
   
-  public static final String greet(String someone) {
+  public static final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
